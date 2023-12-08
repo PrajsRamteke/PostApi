@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js --omit=dev",
-    "prod-install": "npm install"
+    "prod-install": "npm install --omit=dev"
   },
   "keywords": [],
   "author": "",
