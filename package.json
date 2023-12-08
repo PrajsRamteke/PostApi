@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "prod-install": "npm install --omit=dev"
+    "start": "node src/index.js --omit=dev",
+    "prod-install": "npm install"
   },
   "keywords": [],
   "author": "",
