@@ -64,7 +64,7 @@ app.get('/getalldata', async (req, res) => {
   }
 });
 // get User by number
-app.get('/mobilenumber/:number', async (req, res) => {
+app.get('/getalldata/:number', async (req, res) => {
   try {
     const { number } = req.params;
     const entries = await pool.query('SELECT * FROM host WHERE mobilenumber = $1', [number]);
