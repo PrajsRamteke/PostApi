@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js --omit=dev",
+    "start": "node src/main.js --omit=dev",
     "prod-install": "npm install --omit=dev"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "dotenv-safe": "^8.2.0",
     "dotnet": "^1.1.4",
